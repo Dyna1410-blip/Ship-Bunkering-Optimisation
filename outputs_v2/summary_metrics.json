@@ -1,0 +1,16 @@
+{
+    "Fujairah": {
+        "observations": 752,
+        "mae": 197.3449084549942,
+        "rmse": 260.28845168220664,
+        "mape_percent": 21.12204744861287,
+        "next_day_forecast": 658.3725833333334
+    },
+    "Singapore": {
+        "observations": 752,
+        "mae": 126.42959153716252,
+        "rmse": 169.69903470534973,
+        "mape_percent": 15.233763605166734,
+        "next_day_forecast": 652.7786916666668
+    }
+}

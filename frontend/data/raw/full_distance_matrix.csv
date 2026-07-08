@@ -1,0 +1,241 @@
+Origin,Destination,Distance_NM
+Basrah,Mina Saud / Ras Al Zour,120
+Mina Saud / Ras Al Zour,Basrah,120
+Basrah,Ras Tanura,270
+Ras Tanura,Basrah,270
+Basrah,Siri Island,450
+Siri Island,Basrah,450
+Basrah,Lavan Island,510
+Lavan Island,Basrah,510
+Basrah,Fujairah,710
+Fujairah,Basrah,710
+Basrah,Mundra,1660
+Mundra,Basrah,1660
+Basrah,Vadinar,1690
+Vadinar,Basrah,1690
+Basrah,Mumbai,1710
+Mumbai,Basrah,1710
+Basrah,Mumbai (Jawahar Dweep),1710
+Mumbai (Jawahar Dweep),Basrah,1710
+Basrah,Kochi,2160
+Kochi,Basrah,2160
+Basrah,Chennai,2910
+Chennai,Basrah,2910
+Basrah,Chennai (Ennore),2920
+Chennai (Ennore),Basrah,2920
+Basrah,Vishakhapatnam (Vizag),3260
+Vishakhapatnam (Vizag),Basrah,3260
+Basrah,Paradip,3510
+Paradip,Basrah,3510
+Basrah,Haldia,3660
+Haldia,Basrah,3660
+Mina Saud / Ras Al Zour,Ras Tanura,150
+Ras Tanura,Mina Saud / Ras Al Zour,150
+Mina Saud / Ras Al Zour,Siri Island,330
+Siri Island,Mina Saud / Ras Al Zour,330
+Mina Saud / Ras Al Zour,Lavan Island,390
+Lavan Island,Mina Saud / Ras Al Zour,390
+Mina Saud / Ras Al Zour,Fujairah,590
+Fujairah,Mina Saud / Ras Al Zour,590
+Mina Saud / Ras Al Zour,Mundra,1540
+Mundra,Mina Saud / Ras Al Zour,1540
+Mina Saud / Ras Al Zour,Vadinar,1570
+Vadinar,Mina Saud / Ras Al Zour,1570
+Mina Saud / Ras Al Zour,Mumbai,1590
+Mumbai,Mina Saud / Ras Al Zour,1590
+Mina Saud / Ras Al Zour,Mumbai (Jawahar Dweep),1590
+Mumbai (Jawahar Dweep),Mina Saud / Ras Al Zour,1590
+Mina Saud / Ras Al Zour,Kochi,2040
+Kochi,Mina Saud / Ras Al Zour,2040
+Mina Saud / Ras Al Zour,Chennai,2790
+Chennai,Mina Saud / Ras Al Zour,2790
+Mina Saud / Ras Al Zour,Chennai (Ennore),2800
+Chennai (Ennore),Mina Saud / Ras Al Zour,2800
+Mina Saud / Ras Al Zour,Vishakhapatnam (Vizag),3140
+Vishakhapatnam (Vizag),Mina Saud / Ras Al Zour,3140
+Mina Saud / Ras Al Zour,Paradip,3390
+Paradip,Mina Saud / Ras Al Zour,3390
+Mina Saud / Ras Al Zour,Haldia,3540
+Haldia,Mina Saud / Ras Al Zour,3540
+Ras Tanura,Siri Island,180
+Siri Island,Ras Tanura,180
+Ras Tanura,Lavan Island,240
+Lavan Island,Ras Tanura,240
+Ras Tanura,Fujairah,440
+Fujairah,Ras Tanura,440
+Ras Tanura,Mundra,1390
+Mundra,Ras Tanura,1390
+Ras Tanura,Vadinar,1420
+Vadinar,Ras Tanura,1420
+Ras Tanura,Mumbai,1440
+Mumbai,Ras Tanura,1440
+Ras Tanura,Mumbai (Jawahar Dweep),1440
+Mumbai (Jawahar Dweep),Ras Tanura,1440
+Ras Tanura,Kochi,1890
+Kochi,Ras Tanura,1890
+Ras Tanura,Chennai,2640
+Chennai,Ras Tanura,2640
+Ras Tanura,Chennai (Ennore),2650
+Chennai (Ennore),Ras Tanura,2650
+Ras Tanura,Vishakhapatnam (Vizag),2990
+Vishakhapatnam (Vizag),Ras Tanura,2990
+Ras Tanura,Paradip,3240
+Paradip,Ras Tanura,3240
+Ras Tanura,Haldia,3390
+Haldia,Ras Tanura,3390
+Siri Island,Lavan Island,60
+Lavan Island,Siri Island,60
+Siri Island,Fujairah,260
+Fujairah,Siri Island,260
+Siri Island,Mundra,1210
+Mundra,Siri Island,1210
+Siri Island,Vadinar,1240
+Vadinar,Siri Island,1240
+Siri Island,Mumbai,1260
+Mumbai,Siri Island,1260
+Siri Island,Mumbai (Jawahar Dweep),1260
+Mumbai (Jawahar Dweep),Siri Island,1260
+Siri Island,Kochi,1710
+Kochi,Siri Island,1710
+Siri Island,Chennai,2460
+Chennai,Siri Island,2460
+Siri Island,Chennai (Ennore),2470
+Chennai (Ennore),Siri Island,2470
+Siri Island,Vishakhapatnam (Vizag),2810
+Vishakhapatnam (Vizag),Siri Island,2810
+Siri Island,Paradip,3060
+Paradip,Siri Island,3060
+Siri Island,Haldia,3210
+Haldia,Siri Island,3210
+Lavan Island,Fujairah,200
+Fujairah,Lavan Island,200
+Lavan Island,Mundra,1150
+Mundra,Lavan Island,1150
+Lavan Island,Vadinar,1180
+Vadinar,Lavan Island,1180
+Lavan Island,Mumbai,1200
+Mumbai,Lavan Island,1200
+Lavan Island,Mumbai (Jawahar Dweep),1200
+Mumbai (Jawahar Dweep),Lavan Island,1200
+Lavan Island,Kochi,1650
+Kochi,Lavan Island,1650
+Lavan Island,Chennai,2400
+Chennai,Lavan Island,2400
+Lavan Island,Chennai (Ennore),2410
+Chennai (Ennore),Lavan Island,2410
+Lavan Island,Vishakhapatnam (Vizag),2750
+Vishakhapatnam (Vizag),Lavan Island,2750
+Lavan Island,Paradip,3000
+Paradip,Lavan Island,3000
+Lavan Island,Haldia,3150
+Haldia,Lavan Island,3150
+Fujairah,Mundra,950
+Mundra,Fujairah,950
+Fujairah,Vadinar,980
+Vadinar,Fujairah,980
+Fujairah,Mumbai,1000
+Mumbai,Fujairah,1000
+Fujairah,Mumbai (Jawahar Dweep),1000
+Mumbai (Jawahar Dweep),Fujairah,1000
+Fujairah,Kochi,1450
+Kochi,Fujairah,1450
+Fujairah,Chennai,2200
+Chennai,Fujairah,2200
+Fujairah,Chennai (Ennore),2210
+Chennai (Ennore),Fujairah,2210
+Fujairah,Vishakhapatnam (Vizag),2550
+Vishakhapatnam (Vizag),Fujairah,2550
+Fujairah,Paradip,2800
+Paradip,Fujairah,2800
+Fujairah,Haldia,2950
+Haldia,Fujairah,2950
+Mundra,Vadinar,50
+Vadinar,Mundra,50
+Mundra,Mumbai,310
+Mumbai,Mundra,310
+Mundra,Mumbai (Jawahar Dweep),310
+Mumbai (Jawahar Dweep),Mundra,310
+Mundra,Kochi,910
+Kochi,Mundra,910
+Mundra,Chennai,1660
+Chennai,Mundra,1660
+Mundra,Chennai (Ennore),1670
+Chennai (Ennore),Mundra,1670
+Mundra,Vishakhapatnam (Vizag),2010
+Vishakhapatnam (Vizag),Mundra,2010
+Mundra,Paradip,2260
+Paradip,Mundra,2260
+Mundra,Haldia,2410
+Haldia,Mundra,2410
+Vadinar,Mumbai,260
+Mumbai,Vadinar,260
+Vadinar,Mumbai (Jawahar Dweep),260
+Mumbai (Jawahar Dweep),Vadinar,260
+Vadinar,Kochi,860
+Kochi,Vadinar,860
+Vadinar,Chennai,1610
+Chennai,Vadinar,1610
+Vadinar,Chennai (Ennore),1620
+Chennai (Ennore),Vadinar,1620
+Vadinar,Vishakhapatnam (Vizag),1960
+Vishakhapatnam (Vizag),Vadinar,1960
+Vadinar,Paradip,2210
+Paradip,Vadinar,2210
+Vadinar,Haldia,2360
+Haldia,Vadinar,2360
+Mumbai,Mumbai (Jawahar Dweep),5
+Mumbai (Jawahar Dweep),Mumbai,5
+Mumbai,Kochi,600
+Kochi,Mumbai,600
+Mumbai,Chennai,1350
+Chennai,Mumbai,1350
+Mumbai,Chennai (Ennore),1360
+Chennai (Ennore),Mumbai,1360
+Mumbai,Vishakhapatnam (Vizag),1700
+Vishakhapatnam (Vizag),Mumbai,1700
+Mumbai,Paradip,1950
+Paradip,Mumbai,1950
+Mumbai,Haldia,2100
+Haldia,Mumbai,2100
+Mumbai (Jawahar Dweep),Kochi,600
+Kochi,Mumbai (Jawahar Dweep),600
+Mumbai (Jawahar Dweep),Chennai,1350
+Chennai,Mumbai (Jawahar Dweep),1350
+Mumbai (Jawahar Dweep),Chennai (Ennore),1360
+Chennai (Ennore),Mumbai (Jawahar Dweep),1360
+Mumbai (Jawahar Dweep),Vishakhapatnam (Vizag),1700
+Vishakhapatnam (Vizag),Mumbai (Jawahar Dweep),1700
+Mumbai (Jawahar Dweep),Paradip,1950
+Paradip,Mumbai (Jawahar Dweep),1950
+Mumbai (Jawahar Dweep),Haldia,2100
+Haldia,Mumbai (Jawahar Dweep),2100
+Kochi,Chennai,750
+Chennai,Kochi,750
+Kochi,Chennai (Ennore),760
+Chennai (Ennore),Kochi,760
+Kochi,Vishakhapatnam (Vizag),1100
+Vishakhapatnam (Vizag),Kochi,1100
+Kochi,Paradip,1350
+Paradip,Kochi,1350
+Kochi,Haldia,1500
+Haldia,Kochi,1500
+Chennai,Chennai (Ennore),15
+Chennai (Ennore),Chennai,15
+Chennai,Vishakhapatnam (Vizag),350
+Vishakhapatnam (Vizag),Chennai,350
+Chennai,Paradip,600
+Paradip,Chennai,600
+Chennai,Haldia,750
+Haldia,Chennai,750
+Chennai (Ennore),Vishakhapatnam (Vizag),340
+Vishakhapatnam (Vizag),Chennai (Ennore),340
+Chennai (Ennore),Paradip,590
+Paradip,Chennai (Ennore),590
+Chennai (Ennore),Haldia,740
+Haldia,Chennai (Ennore),740
+Vishakhapatnam (Vizag),Paradip,250
+Paradip,Vishakhapatnam (Vizag),250
+Vishakhapatnam (Vizag),Haldia,400
+Haldia,Vishakhapatnam (Vizag),400
+Paradip,Haldia,150
+Haldia,Paradip,150

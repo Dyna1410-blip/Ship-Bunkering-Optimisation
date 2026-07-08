@@ -1,0 +1,82 @@
+{
+  "Fujairah / MGO": {
+    "observations": 783,
+    "lookback": 30,
+    "train_observations": 548,
+    "validation_observations": 117,
+    "test_observations": 118,
+    "epochs_run": 200,
+    "test_period_start": "2026-01-05T00:00:00+00:00",
+    "test_period_end": "2026-06-17T00:00:00+00:00",
+    "lstm": {
+      "mae": 385.5858154296875,
+      "rmse": 482.45864460075745,
+      "mape_percent": 25.118101119995117
+    },
+    "naive_previous_price": {
+      "mae": 33.15254211425781,
+      "rmse": 52.44007927208444,
+      "mape_percent": 2.3535916805267334
+    }
+  },
+  "Fujairah / VLSFO": {
+    "observations": 783,
+    "lookback": 30,
+    "train_observations": 548,
+    "validation_observations": 117,
+    "test_observations": 118,
+    "epochs_run": 74,
+    "test_period_start": "2026-01-05T00:00:00+00:00",
+    "test_period_end": "2026-06-17T00:00:00+00:00",
+    "lstm": {
+      "mae": 203.44200134277344,
+      "rmse": 268.74180220055086,
+      "mape_percent": 21.750308990478516
+    },
+    "naive_previous_price": {
+      "mae": 22.694915771484375,
+      "rmse": 38.14212922064492,
+      "mape_percent": 2.6541976928710938
+    }
+  },
+  "Singapore / MGO": {
+    "observations": 783,
+    "lookback": 30,
+    "train_observations": 548,
+    "validation_observations": 117,
+    "test_observations": 118,
+    "epochs_run": 22,
+    "test_period_start": "2026-01-05T00:00:00+00:00",
+    "test_period_end": "2026-06-17T00:00:00+00:00",
+    "lstm": {
+      "mae": 409.6094970703125,
+      "rmse": 541.0881975242114,
+      "mape_percent": 28.91356658935547
+    },
+    "naive_previous_price": {
+      "mae": 45.580509185791016,
+      "rmse": 74.1617708911994,
+      "mape_percent": 3.3935296535491943
+    }
+  },
+  "Singapore / VLSFO": {
+    "observations": 783,
+    "lookback": 30,
+    "train_observations": 548,
+    "validation_observations": 117,
+    "test_observations": 118,
+    "epochs_run": 175,
+    "test_period_start": "2026-01-05T00:00:00+00:00",
+    "test_period_end": "2026-06-17T00:00:00+00:00",
+    "lstm": {
+      "mae": 112.03677368164062,
+      "rmse": 151.08055462029188,
+      "mape_percent": 13.471302032470703
+    },
+    "naive_previous_price": {
+      "mae": 19.758474349975586,
+      "rmse": 38.490891208891064,
+      "mape_percent": 2.467111825942993
+    }
+  }
+}

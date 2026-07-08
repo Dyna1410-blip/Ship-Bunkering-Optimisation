@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  engine-api:
+    build: ./backend
+    container_name: vlcc_fastapi_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    # Note: If Gurobi requires a specific license file path, you can map it here later
+
+  dashboard-ui:
+    build: ./frontend
+    container_name: vlcc_streamlit_frontend
+    ports:
+      - "8501:8501"
+    depends_on:
+      - engine-api
+    environment:
+      # This tells Streamlit exactly where to send the API requests!
+      - API_URL=http://engine-api:8000/api/v1/optimize

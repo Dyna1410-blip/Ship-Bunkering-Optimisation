@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment Variables & Secrets
+.env
+gurobi.lic
+
+# Data (Optional: if your CSVs are small and public, you can remove this)
+# If they are proprietary company data, keep them ignored!
+data/raw/*.csv
+
+# OS generated files
+.DS_Store
+Thumbs.db
