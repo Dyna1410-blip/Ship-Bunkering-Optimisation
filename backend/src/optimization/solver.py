@@ -150,6 +150,9 @@ class BunkeringStochasticSolver:
                     },
                     "loop_opportunity_cost_usd": round((time_leg1[s].X + time_leg2[s].X) * daily_charter_rate, 2)
                 }
+
+            model.dispose()
+            gp.disposeDefaultEnv()    
             return results
         else:
             return {"status": "INFEASIBLE/FAILED"}
