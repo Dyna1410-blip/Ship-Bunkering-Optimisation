@@ -48,7 +48,10 @@ def run_pipeline(origin: str, load_port: str, destination: str, dist_leg1: float
     try:
         # Load your synthesized Mumbai pricing dataset
         # Adjust path if mumbai.csv is in data/raw/
-        regional_df = pd.read_csv('mumbai.csv')
+        # Dynamically build the absolute path for the Docker container
+        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+        mumbai_path = os.path.join(BASE_DIR, 'data', 'raw', 'mumbai.csv')
+        regional_df = pd.read_csv(mumbai_path)
         fujairah_mean = regional_df[regional_df['port'] == 'Fujairah']['price'].mean()
         mumbai_mean = regional_df[regional_df['port'] == 'Mumbai']['price'].mean()
         static_india_premium = mumbai_mean - fujairah_mean

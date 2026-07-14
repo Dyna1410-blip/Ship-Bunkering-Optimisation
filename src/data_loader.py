@@ -4,10 +4,15 @@ import pandas as pd
 
 class DataLoader:
     """ Handles ingestion and initial cleaning of routing and market datasets. """
-    def __init__(self, data_dir: str = "data"):
+    def __init__(self, data_dir: str = None):
+        # Dynamically locate the project root (one level up from the 'src' folder)
+        PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        
+        if data_dir is None:
+            data_dir = os.path.join(PROJECT_ROOT, "data")
+            
         self.raw_dir = os.path.join(data_dir, "raw")
         self.processed_dir = os.path.join(data_dir, "processed")
-
     def load_routes(self) -> pd.DataFrame:
         """ Loads and validates the fixed routes database. """
         path = os.path.join(self.raw_dir, "routes_cl.csv")
