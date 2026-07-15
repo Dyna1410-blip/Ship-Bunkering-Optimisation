@@ -8,7 +8,7 @@ from src.models.predict import ScenarioPredictor
 from src.optimization.vessel_profile import VesselProfile
 from src.optimization.solver import BunkeringStochasticSolver
 
-def run_pipeline(origin: str, load_port: str, destination: str, dist_leg1: float, dist_leg2: float, current_bunker_onboard: float, target_return_inventory: float, train_models: bool = False):
+def run_pipeline(origin: str, load_port: str, destination: str, dist_leg1: float, dist_leg2: float, current_bunker_onboard: float, target_return_inventory: float, manual_tce: float = None, train_models: bool = False):
     print("=" * 75)
     print("STARTING CONTINUOUS LOOP OPTIMIZATION PIPELINE")
     print("=" * 75)
@@ -96,8 +96,13 @@ def run_pipeline(origin: str, load_port: str, destination: str, dist_leg1: float
     desh_viraat = VesselProfile()
     solver = BunkeringStochasticSolver(vessel=desh_viraat)
 
-    # Define the Time Charter Equivalent (TCE) rate
-    daily_tce_rate = 34260.0  # $34,260/day opportunity cost
+    # Handle Time Charter Equivalent (TCE) rate selection logic
+    if manual_tce is not None:
+        daily_tce_rate = float(manual_tce)
+        print(f"[OR] Manual TCE Override Active. Value Locked: ${daily_tce_rate:,.2f}/day")
+    else:
+        daily_tce_rate = 34260.0  # Default $34,260/day base opportunity cost
+        print(f"[OR] No TCE override input detected. Utilizing Standard Base Rate: ${daily_tce_rate:,.2f}/day")
 
     optimization_results = solver.solve_bunkering_problem(
         route_info=route_info,
@@ -157,5 +162,6 @@ if __name__ == "__main__":
         dist_leg2=3450.0, 
         current_bunker_onboard=495.0, 
         target_return_inventory=3000.0,
+        manual_tce=None,
         train_models=False
     )

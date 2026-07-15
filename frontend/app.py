@@ -85,7 +85,7 @@ else:
     origin_port, load_port, dest_port = None, None, None
 
 st.sidebar.divider()
-st.sidebar.header(" Inventory Parameters")
+st.sidebar.header("Inventory Parameters")
 
 current_bunker = st.sidebar.number_input(
     "Current Fuel Onboard (MT)", 
@@ -98,6 +98,23 @@ target_inventory = st.sidebar.number_input(
     min_value=0.0, max_value=5000.0, value=200.0, step=10.0,
     help="Fuel required to remain in tanks upon arriving at the final destination for the next charter."
 )
+
+st.sidebar.divider()
+st.sidebar.header("Economic Parameters")
+
+# Toggle between auto-calculated or user-defined TCE override
+tce_mode = st.sidebar.radio("TCE Rate Mode", ["Auto-Calculate", "Manual Input"])
+
+if tce_mode == "Manual Input":
+    manual_tce = st.sidebar.number_input(
+        "Target TCE (USD/day)", 
+        min_value=0.0, 
+        value=34260.0, 
+        step=500.0,
+        help="Manually override the optimization pipeline calculation with a static charter rate."
+    )
+else:
+    manual_tce = None
 
 st.sidebar.divider()
 run_button = st.sidebar.button("Execute Optimization", use_container_width=True, type="primary")
@@ -129,7 +146,8 @@ if run_button and origin_port and load_port and dest_port:
                     "load_port": load_port,
                     "destination": dest_port,
                     "current_bunker_onboard": current_bunker,
-                    "target_return_inventory": target_inventory
+                    "target_return_inventory": target_inventory,
+                    "manual_tce": manual_tce
                 }
                 
                 # 3. Send the POST request to the backend

@@ -2,6 +2,7 @@ import os
 import pandas as pd
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+from typing import Optional
 from main import run_pipeline
 
 # --- 1. INITIALIZE FASTAPI ---
@@ -18,6 +19,7 @@ class RouteOptimizationRequest(BaseModel):
     destination: str
     current_bunker_onboard: float = 300.0
     target_return_inventory: float = 1000.0
+    manual_tce: Optional[float] = None
 
 # --- 3. HELPER: LOAD DISTANCE MATRIX ---
 def load_distance_matrix():
@@ -73,6 +75,7 @@ def execute_digital_twin(request: RouteOptimizationRequest):
             dist_leg2=dist_leg2,
             current_bunker_onboard=request.current_bunker_onboard,
             target_return_inventory=request.target_return_inventory,
+            manual_tce=request.manual_tce,
             train_models=False
         )
         
