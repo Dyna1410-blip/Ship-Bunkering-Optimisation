@@ -9,7 +9,7 @@ class ScenarioPredictor:
     def __init__(self, model_dir: str = "src/models/saved_models"):
         self.model_dir = model_dir
         self.scenarios = ['Low', 'Base', 'High']
-        self.probabilities = {'Low': 0.20, 'Base': 0.50, 'High': 0.30}
+        self.probabilities = {'Low': 0.20, 'Base': 0.60, 'High': 0.20}
 
     def generate_gurobi_scenarios(self, latest_row: pd.DataFrame, current_spot: float) -> dict:
         """
